@@ -1,8 +1,19 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import { withAuthenticator } from "aws-amplify-react";
+import { Auth } from "aws-amplify";
 
 class App extends Component {
+  // Auth.currentAuthenticatedUser()
+
+  componentDidMount() {
+    Auth.currentSession()
+      .then(data => console.log(data.idToken.payload))
+      .catch(err => console.log(err));
+  }
+
   render() {
     return (
       <div className="App">
@@ -11,18 +22,11 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <button> Record Event</button>
         </header>
       </div>
     );
   }
 }
 
-export default App;
+export default withAuthenticator(App);

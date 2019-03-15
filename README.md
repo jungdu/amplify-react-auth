@@ -1,4 +1,4 @@
-# Anplify React
+# Amplify React Auth
 
 ## 기능 설명
 AWS의 Cognito 서비스를 활용하여 React Applicaion에서 <br> 회원 관리 기능을 빠르게 추가할 수 있습니다.

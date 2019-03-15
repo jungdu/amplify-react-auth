@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "ampweb-20190315140107-authRole",
+            "UnauthRoleArn": "arn:aws:iam::680284422244:role/ampweb-20190315140107-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::680284422244:role/ampweb-20190315140107-authRole",
+            "Region": "ap-northeast-2",
+            "DeploymentBucketName": "ampweb-20190315140107-deployment",
+            "UnauthRoleName": "ampweb-20190315140107-unauthRole",
+            "StackName": "ampweb-20190315140107",
+            "StackId": "arn:aws:cloudformation:ap-northeast-2:680284422244:stack/ampweb-20190315140107/590211f0-46df-11e9-9936-0a2d74753dac"
+        },
+        "categories": {
+            "auth": {
+                "cognito6e8a0b0c": {}
+            }
+        }
+    }
+}

@@ -65,7 +65,7 @@ import config from "./aws-exports";
 Amplify.configure(config);
 ```
 
-* React 컴포넌트에 인증 기능 추가
+* 인증 체크 기능 추가
 ```
 import { widthAuthenticator } from 'aws-amplify-react'
 

@@ -1,7 +1,9 @@
 # Amplify React Auth
 
 ## 기능 설명
-AWS의 Cognito 서비스를 활용하여 React Applicaion에서 <br> 회원 관리 기능을 빠르게 추가할 수 있습니다.
+AWS의 Cognito 서비스를 활용하여 React Applicaion에서 
+<br> 회원 관리 기능을 빠르고 간단하게 추가할 수 있습니다. 
+<br> 도입하기에 앞서 사용하는 서비스의 가격이 합리적인지 따져 보아야 합니다.
 
 ## Amplify 활용 가치
 기존의 AWS Cognito 서비스를 등록하고 인증 키를 등록하는 과정들이 복잡할 수 있는데, <br>
